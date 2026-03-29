@@ -11,7 +11,8 @@
 body {
     width: 100%;
     background: #e5e7eb;
-    position: relative; 
+    position: relative;
+    display: flex;
 }
 
 /* ----------------------------------------
@@ -79,5 +80,56 @@ body {
 }
 
 /* ----------------------------------------
----------------START NAVEGATION------------
+---------------INTERFACE NAVEGATION------------
 ------------------------------------------- */
+
+#interface {
+    width: calc(100% - 300px);
+}
+
+#interface .navegation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 15px 30px;
+    border-bottom: 3px solid #594ef7;
+}
+    
+#interface .navegation .search {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 14px;
+    border: 1px solid #d7dbe6;
+    border-radius: 4px;
+}
+
+#interface .navegation .search i {
+    margin-right: 14px;
+}
+
+#interface .navegation .search input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+#interface .navegation .profile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#interface .navegation .profile i {
+    margin-right: 20px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+#interface .navegation .profile img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover; /* cobre todo o espaço, mantendo a proporção, cortando excessos */
+    border-radius: 50%;
+}
