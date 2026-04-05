@@ -11,6 +11,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" ></script>
 </head>
 
 <body>
@@ -35,6 +36,9 @@
     <section id="interface">
         <div class="navegation">
             <div class="n1">
+                <div>
+                <i id="menu-btn" class="fa-solid fa-bars"></i>  
+                </div>
                 <div class="search">
                     <i class="fa-solid fa-magnifying-glass"></i>
                     <input type="text" placeholder="Search">
@@ -115,11 +119,170 @@
                                 <a href="#">Edit</a>
                             </td>
                         </tr>
+                        <tr> <!-- linha -->
+                            <td class="people">
+                                <img src="images/2.jpg" alt="">
+                                <div class="people-de">
+                                    <h5>John Doe</h5>
+                                    <p>john@example.com</p>
+                                </div>
+                            </td>
+                            <td class="people-des">
+                                <h5>Software Engineer</h5>
+                                <p>Web dev</p>
+                            </td>
+                            <td class="active">
+                                <p>Active</p>
+                            </td>
+                            <td class="role">
+                                <p>Owner</p>
+                            </td>
+                            <td class="edit">
+                                <a href="#">Edit</a>
+                            </td>
+                        </tr>
+                        <tr> <!-- linha -->
+                            <td class="people">
+                                <img src="images/3.jpg" alt="">
+                                <div class="people-de">
+                                    <h5>John Doe</h5>
+                                    <p>john@example.com</p>
+                                </div>
+                            </td>
+                            <td class="people-des">
+                                <h5>Software Engineer</h5>
+                                <p>Web dev</p>
+                            </td>
+                            <td class="active">
+                                <p>Active</p>
+                            </td>
+                            <td class="role">
+                                <p>Owner</p>
+                            </td>
+                            <td class="edit">
+                                <a href="#">Edit</a>
+                            </td>
+                        </tr>
+                        <tr> <!-- linha -->
+                            <td class="people">
+                                <img src="images/4.jpg" alt="">
+                                <div class="people-de">
+                                    <h5>John Doe</h5>
+                                    <p>john@example.com</p>
+                                </div>
+                            </td>
+                            <td class="people-des">
+                                <h5>Software Engineer</h5>
+                                <p>Web dev</p>
+                            </td>
+                            <td class="active">
+                                <p>Active</p>
+                            </td>
+                            <td class="role">
+                                <p>Owner</p>
+                            </td>
+                            <td class="edit">
+                                <a href="#">Edit</a>
+                            </td>
+                        </tr>
+                        <tr> <!-- linha -->
+                            <td class="people">
+                                <img src="images/5.jpg" alt="">
+                                <div class="people-de">
+                                    <h5>John Doe</h5>
+                                    <p>john@example.com</p>
+                                </div>
+                            </td>
+                            <td class="people-des">
+                                <h5>Software Engineer</h5>
+                                <p>Web dev</p>
+                            </td>
+                            <td class="active">
+                                <p>Active</p>
+                            </td>
+                            <td class="role">
+                                <p>Owner</p>
+                            </td>
+                            <td class="edit">
+                                <a href="#">Edit</a>
+                            </td>
+                        </tr>
+                        <tr> <!-- linha -->
+                            <td class="people">
+                                <img src="images/6.jpg" alt="">
+                                <div class="people-de">
+                                    <h5>John Doe</h5>
+                                    <p>john@example.com</p>
+                                </div>
+                            </td>
+                            <td class="people-des">
+                                <h5>Software Engineer</h5>
+                                <p>Web dev</p>
+                            </td>
+                            <td class="active">
+                                <p>Active</p>
+                            </td>
+                            <td class="role">
+                                <p>Owner</p>
+                            </td>
+                            <td class="edit">
+                                <a href="#">Edit</a>
+                            </td>
+                        </tr>
+                        <tr> <!-- linha -->
+                            <td class="people">
+                                <img src="images/2.jpg" alt="">
+                                <div class="people-de">
+                                    <h5>John Doe</h5>
+                                    <p>john@example.com</p>
+                                </div>
+                            </td>
+                            <td class="people-des">
+                                <h5>Software Engineer</h5>
+                                <p>Web dev</p>
+                            </td>
+                            <td class="active">
+                                <p>Active</p>
+                            </td>
+                            <td class="role">
+                                <p>Owner</p>
+                            </td>
+                            <td class="edit">
+                                <a href="#">Edit</a>
+                            </td>
+                        </tr>
+                        <tr> <!-- linha -->
+                            <td class="people">
+                                <img src="images/3.jpg" alt="">
+                                <div class="people-de">
+                                    <h5>John Doe</h5>
+                                    <p>john@example.com</p>
+                                </div>
+                            </td>
+                            <td class="people-des">
+                                <h5>Software Engineer</h5>
+                                <p>Web dev</p>
+                            </td>
+                            <td class="active">
+                                <p>Active</p>
+                            </td>
+                            <td class="role">
+                                <p>Owner</p>
+                            </td>
+                            <td class="edit">
+                                <a href="#">Edit</a>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
         </div>
     </section>
+    <script>
+        $('#menu-btn').click(function() {
+            $('#menu').toggleClass("active");
+        });
+    </script>
 </body>
 
 </html>
